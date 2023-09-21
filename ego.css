@@ -1,0 +1,2161 @@
+/*
+hello and welcome to my css, please have fun looking around. if you have any questions please dont hesitate to ask.
+*/
+
+
+* {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto ;}
+
+a.logo::after {
+    content: "version 9.24.7";
+    font-size: xx-small;
+    font-family: undertale;
+    position: relative;
+    top: 12px;
+    left: 741px;
+    color: white;
+}
+
+/*
+@keyframes rising {
+  0% {filter: grayscale(1) brightness(0.2);}
+  100% {filter: grayscale(0) brightness(1);}
+} */
+
+html {
+    height: 100%;
+    animation: linear rising 59s;
+}
+
+/* lol */
+
+a:link, a.linklol:link{ color: #adadad !important;}
+a:visited, a.linklol:visited{ color: #808080 !important;}
+a:hover, a.linklol:hover{ color: #f8f800 !important; text-shadow: 2px 2px black !important;}
+a:active, a.linklol:active{ color: #ffff00 !important; text-shadow: 1px 1px black !important;} 
+a:selection, a.linklol:selection{ background:#000000 !important;}
+ :selection{ background:#030303 !important; color:#d9d9d9 !important;}
+
+@font-face {
+    font-family: 'eva';
+    font-style: normal;
+    font-weight: normal;
+    src: url(https://aydoplaydoh.neocities.org/FOT-Matisse%20Pro%20EB.woff);
+}
+
+@font-face {
+    font-family: 'undertale';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://deltarune.com/assets/fonts/8bitOperatorPlus-Bold.woff);
+}
+
+/*
+@keyframes music{
+1%{background:url(https://i.imgur.com/fjJSK9O.png); background-size: cover;}
+9%{background:url(https://i.imgur.com/fjJSK9O.png); background-size: cover;}
+10%{background: url(https://i.imgur.com/nVUZ3Rx.png); background-position: bottom; filter: hue-rotate(296deg);}
+26%{background: url(https://i.imgur.com/nVUZ3Rx.png); background-position: bottom; filter: hue-rotate(296deg);}
+27%{background: url(https://i.imgur.com/y5r1C6L.png); background-position: 1px 100px; filter: hue-rotate(178deg) saturate(0.5) brightness(1.5);}
+99%{background: url(https://i.imgur.com/y5r1C6L.png); background-position: 1px 100px; filter: hue-rotate(178deg) saturate(0.5) brightness(1.5);}
+100%{background: url(https://i.imgur.com/y5r1C6L.png); background-position: 1px 100px; filter: hue-rotate(178deg) saturate(0.5) brightness(1.5);}
+}
+*/
+
+
+@keyframes textRainbow {
+  0% { background-position-x: 0%; }
+  50% { background-position-x: 50%; }
+  100% { background-position-x: 100%; }
+}
+
+@keyframes footer {
+   0% {background: black; font-size: small;}
+   19.99% {background: black; font-size: small;}
+   19.999% {background: black; font-size: 0px;}
+   20% {background: url(https://i.imgur.com/seqJqHg.gif); image-rendering: pixelated; color: transparent !important; font-size: 0px;}
+   39.99% {background: url(https://i.imgur.com/seqJqHg.gif); image-rendering: pixelated; color: transparent !important; font-size: 0px;}
+   40% {background: url(https://i.imgur.com/mQAFlDc.png); image-rendering: pixelated; color: transparent !important; font-size: 0px;}
+   59.99% {background: url(https://i.imgur.com/mQAFlDc.png); image-rendering: pixelated; color: transparent !important; font-size: 0px;}
+   60% {background: url(https://i.imgur.com/2cFr3cb.png); image-rendering: pixelated; color: transparent !important; font-size: 0px;}
+   79.99% {background: url(https://i.imgur.com/2cFr3cb.png); image-rendering: pixelated; color: transparent !important; font-size: 0px;}
+   80% {background: url(https://i.imgur.com/EPnfrTX.gif); image-rendering: pixelated; color: transparent !important; font-size: 0px;}
+   99.99% {background: url(https://i.imgur.com/EPnfrTX.gif); image-rendering: pixelated; color: transparent !important; font-size: 0px;}
+   100% {background: black; font-size: small;}
+ }
+
+@keyframes decesare {
+0%{background: url(https://i.imgur.com/QjbZqKC.png)}
+100%{background: url(https://i.imgur.com/Gs7snFu.png)}
+}
+
+@keyframes pirating {
+0%{background: url(https://i.imgur.com/1TQu9Lq.png)}
+100%{background: url(https://i.imgur.com/J9kZFx0.png)}
+}
+
+@keyframes shake {
+0%{transform: translate(1px, 1px) rotate(0deg);}
+10%{transform: translate(-1px, -2px) rotate(-0.1deg);}
+20%{transform: translate(-3px, 0px) rotate(0.1deg);}
+30%{transform: translate(3px, 2px) rotate(0deg);}
+40%{transform: translate(1px, -1px) rotate(0.1deg);}
+50%{transform: translate(-1px, 2px) rotate(-0.1deg);}
+60%{transform: translate(-3px, 1px) rotate(0deg);}
+70%{transform: translate(3px, 1px) rotate(-0.1deg);}
+80%{transform: translate(-1px, -1px) rotate(0.1deg);}
+90%{transform: translate(1px, 2px) rotate(0deg);}
+100%{transform: translate(1px, -2px) rotate(-0.1deg);}
+}
+
+@keyframes rotatemadnes{
+20%{transform: rotate(90deg);}
+40%{transform: rotate(90deg);}
+60%{transform: rotate(180deg);}
+80%{transform: rotate(270deg);}
+100%{transform: rotate(360deg);}
+}
+
+@keyframes changeColor{
+0%{color:#FDDB68;}
+10%{color:#F48190;}
+20%{color:#CE65BA;}
+30%{color:#AE73B5;}
+40%{color:#6880AC;}
+50%{color:#4892B7;}
+60%{color:#44BAAA;}
+70%{color:#6AC66F;}
+80%{color:#D1EC2B;}
+90%{color:#FFF011;}
+100%{color:#FFC16D;}
+}
+
+@keyframes shaky {
+0%{transform: translate(1px, 1px);}
+10%{transform: translate(-1px, -1px);}
+20%{transform: translate(-1px, 0px);}
+30%{transform: translate(0px, 1px);}
+40%{transform: translate(1px, -1px);}
+50%{transform: translate(-1px, 1px);}
+60%{transform: translate(0px, 1px);}
+70%{transform: translate(1px, 1px);}
+80%{transform: translate(-1px, -1px);}
+90%{transform: translate(1px, 1px);}
+100%{transform: translate(1px, -1px);}}
+
+@keyframes bgmove{
+0%{ background-position:-100% 100%; /*filter: hue-rotate(0deg);*/}
+100%{ background-position: 100% -100%; /*filter: hue-rotate(360deg);*/}
+}
+
+
+@keyframes rainbowz{
+0%{ filter: hue-rotate(0deg);}
+100%{ filter: hue-rotate(360deg);}
+}
+
+@keyframes ambient{
+0%{ filter: grayscale(0.4) blur(0.5px) hue-rotate(325deg);}
+100%{ filter: grayscale(0.4) blur(0.5px);}
+}
+
+@keyframes scrolling-left10 {
+0%{transform: translateX(1000px);}
+100%{transform: translateX(-1000px);}
+}
+
+@keyframes marquee{
+0%{transform: translate(0, 0);}
+100%{transform: translate(-100%, 0);}
+}
+
+@keyframes bgmarquee{
+0%{background-position: 0px 0px;}
+100%{background-position: -100px 0px;}
+}
+
+@keyframes die {
+0%{transform: translateX(0%);}
+50%{transform: translateY(0px);}   
+100%{transform: translateX(0%);}           
+}
+
+@keyframes lights {
+0%{
+color: hsl(230, 40%, 80%); 
+text-shadow:0 0 1em hsla(320, 100%, 50%, 1),
+0 0 0.125em hsla(320, 100%, 60%, 1),
+-1em -0.125em 0.5em hsla(40, 100%, 60%, 1),
+1em 0.125em 0.5em hsla(200, 100%, 60%, 1),
+-0.125em -1em 0.5em hsla(120, 100%, 60%, 1),
+0.125em 1em 0.5em hsla(360, 100%, 60%, 1),
+-1em 1em 0.5em hsla(0, 100%, 60%, 1),
+-1em -1em 0.5em hsla(30, 100%, 60%, 1),
+1em -1em 0.5em hsla(650, 100%, 80%, 1),
+1em 1em 0.5em hsla(360, 100%, 0%, 1);}
+30%{ 
+color: hsl(230, 80%, 90%);
+text-shadow:0 0 1em hsla(320, 100%, 50%,1),
+0 0 0.125em hsla(320, 100%, 60%, 1), 
+-0.5em -0.125em 0.25em hsla(40, 100%, 60%, 1),
+0.5em 0.125em 0.25em hsla(200, 100%, 60%, 1),
+-0.125em -0.5em 0.25em hsla(120, 100%, 60%, 1),
+0.125em 0.5em 0.25em hsla(360, 100%, 60%, 1),
+-0.5em 0.5em 0.25em hsla(0, 100%, 60%, 1),
+-0.5em -0.5em 0.25em hsla(30, 100%, 60%, 1),
+0.5em -0.5em 0.25em hsla(650, 100%, 80%, 1),
+0.5em 0.5em 0.25em hsla(360, 100%, 0%, 1);}
+40% { 
+color: hsl(230, 100%, 95%);
+text-shadow:
+0 0 1em hsla(320, 100%, 50%, 1),
+0 0 0.125em hsla(320, 100%, 90%, 1), 
+-0.25em -0.125em 0.125em hsla(40, 100%, 60%, 1),
+0.25em 0.125em 0.125em hsla(200, 100%, 60%, 1),
+-0.125em -0.25em 0.125em hsla(120, 100%, 60%, 1),
+0.125em 0.25em 0.125em hsla(360, 100%, 60%, 1), 
+-0.25em 0.25em 0.125em hsla(0, 100%, 60%, 1),
+-0.25em -0.25em 0.125em hsla(30, 100%, 60%, 1),
+0.25em -0.25em 0.125em hsla(650, 100%, 80%, 1),
+0.25em 0.25em 0.125em hsla(360, 100%, 0%, 1);
+}
+70% {
+color: hsl(230, 80%, 90%);
+text-shadow:
+0 0 1em hsla(320, 100%, 50%, 1),
+0 0 0.125em hsla(320, 100%, 60%, 1),
+0.5em -0.125em 0.25em hsla(40, 100%, 60%, 1),
+-0.5em 0.125em 0.25em hsla(200, 100%, 60%, 1),
+-0.125em -0.5em 0.25em hsla(120, 100%, 60%, 1),
+0.125em 0.5em 0.25em hsla(360, 100%, 60%, 1),
+-0.5em 0.5em 0.25em hsla(0, 100%, 60%, 1),
+-0.5em -0.5em 0.25em hsla(30, 100%, 60%, 1),
+1em -0.5em 0.25em hsla(650, 100%, 80%, 1),
+1em 0.5em 0.25em hsla(360, 100%, 0%, 1);}
+100% {
+color: hsl(230, 40%, 80%);
+text-shadow:
+0 0 1em hsla(320, 100%, 50%, 1),
+0 0 0.125em hsla(320, 100%, 60%, 1),
+1em -0.125em 0.5em hsla(40, 100%, 60%, 1),
+-1em 0.125em 0.5em hsla(200, 100%, 60%, 1),
+-0.125em -1em 0.5em hsla(120, 100%, 60%, 1),
+0.125em 1em 0.5em hsla(360, 100%, 60%, 1),    
+-1em 1em 0.5em hsla(0, 100%, 60%, 1),
+-1em -1em 0.5em hsla(30, 100%, 60%, 1),
+1em -1em 0.5em hsla(650, 100%, 80%, 1),
+1em 1em 0.5em hsla(360, 100%, 0%, 1)
+} 
+}
+
+@keyframes spin{
+ from{transform:rotate(0);}
+ to{transform:rotate(360deg);}
+}
+
+:root {
+    --outset: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+    --inset: -1px -1px #fff,inset 1px 1px #0a0a0a,inset -2px -2px #dfdfdf,inset 2px 2px grey;
+    --gradient: linear-gradient(to left, cyan, blue, magenta);
+}
+
+
+
+body { background-image: url(https://i.imgur.com/q47OaIS.png); background-size: cover; background-attachment: fixed;}
+
+#container { max-width: 100%; margin-left: auto; margin-right: auto;}
+
+#header { background-color: #000000;}
+
+#header { background-color: #000000; background-image: url(https://i.imgur.com/6qyLGec.png); background-repeat: no-repeat; background-size: 750px 32px; background-position-x: 4px; image-rendering: pixelated; border-top: 2px black solid;}
+
+.blinkGreen { color: #ffff00 !important;}
+
+#hSub {
+    display: inline-flex;
+    font-weight: bold;
+    background-color: transparent;
+    margin: 0px;
+    position: fixed;
+    left: 15px;
+    width: 111px;
+    color: #0000;
+    height: 15px;
+    z-index: 300;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 0px;
+}
+
+
+a.linklol {
+    display: inline-flex;
+    font-weight: 700;
+    position: fixed;
+    left: 25px;
+    width: auto;
+    height: 15px;
+    z-index: 300;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #808080 !important;
+    text-shadow: 0px 0px transparent;
+    font-size: small;
+    text-decoration: none;
+}
+
+a.linklol[href="https://myspace.f46n.org/?id=593"] {
+    top: 389px;
+}
+
+a.linklol[href="https://myspace.f46n.org/?id=594"] {
+    top: 428px;
+}
+
+
+#hSub a, a.linklol {
+    border-radius: 5px;
+    border: black 2px solid;
+    display: inline-block;
+    padding: 10px;
+    background-color: #d9d9d9;
+    box-shadow: -10px 0px grey;
+    font-size: small;
+}
+
+#hSub a:active, a.linklol:active { transform: translateX(-10px) !important; box-shadow: 0px 0px grey !important;}
+
+#hSub a:hover, a.linklol:hover { transform: translateX(-5px); box-shadow: -5px 0px grey;}
+
+#hSub span #text { color: black; font-weight: bold;}
+
+#hSub a { border-radius: 5px; border: black 2px solid; display: inline-block; padding: 10px; background-color: #d9d9d9; box-shadow: -10px 0px grey;}
+
+
+.box.fwiends {
+    background-color: #ffff05;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    background-size: 100%;
+    border: 8px groove #cd0048;
+    color: white !important;
+    background: url(https://i.imgur.com/CbB1gS8.png);
+    background-size: contain;
+    image-rendering: pixelated;
+}
+
+.box.fwiends .rightHead {
+    background: transparent;
+    color: white;
+}
+
+.fwiendFace img {
+    width: 100%;
+    max-height: 170px;
+}
+
+td.tableRight {
+    background-color: #ffff05;
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    background-size: 100%;
+    border: 8px groove #d1b02c;
+    color: black !important;
+    border-left: 0px;
+    left: -2px;
+    position: relative;
+}
+
+.topLeft, .topRight {
+/*    background-color: #d9d9d9; */
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    background-size: 100%;
+/*    border: 8px groove gray; */
+}
+
+.topLeft.blogCard > div:last-child a { 
+    color: red !important; 
+}
+
+.topLeft.blogCard > div:last-child {
+    border: white 8px groove;
+    width: 100%; 
+    color: red !important; 
+    padding: 3px; 
+    background: white; 
+}
+
+.topRight {
+    max-width: 50%;
+    position: absolute;
+    margin: auto;
+    min-width: 444px;
+    right: 2%;
+}
+
+a.logo {
+    font-size: 0px;
+}
+
+.boxInfo.box .boxHead {
+    background: transparent;
+    color: red;
+}
+
+.boxButton {
+    color: red;
+    overflow: hidden;
+}
+
+
+
+.boxHead {
+    background: #ffff05;
+    color: black;
+    padding-left: 4px;
+    text-align: center;
+}
+
+.rightHead {
+    background: #ffff05;
+    color: black;
+    padding-left: 4px;
+    text-align: center;
+}
+
+
+.blurbs a {
+    color: black !important;
+}
+
+.blurbs {
+    margin-bottom: 0px;
+    background: url(https://i.imgur.com/IiXQtjQ.png);
+    background-size: cover;
+    border: 8px groove #8e8e8e;
+    color: #fff9f7;
+    background-position: top;
+    image-rendering: pixelated;
+    padding-left: 3px;
+    text-shadow: 0px 0px 8px black;
+}
+
+.box.blurbs .rightHead {
+    background: transparent;
+}
+
+.extended.box h3 .uName {
+    left: 1px;
+    position: relative;
+}
+.extended {
+    border: 1px solid #000;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    border: 8px groove #009f2f;
+    background: url(https://i.imgur.com/Do7rH0v.png);
+    background-position: top;
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline overline 3px;
+}
+
+.extended:hover {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    border: 8px groove #ffb600;
+    background: url(https://i.imgur.com/i38MUI6.gif);
+    background-position: top;
+    background-size: contain;
+    color: #710000 !important;
+    text-transform: uppercase;
+    text-decoration: underline overline 3px;
+    filter: saturate(38.5) contrast(16.5) saturate(99.5);
+}
+
+#credo, .tableRight a[href="https://myspace.f46n.org/awesome"] {
+    background: url(https://i.imgur.com/l6NEbjk.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #ffffff54 !important;
+    text-shadow: 0 0 7px #fffb00, 0 0 10px #757400, 0 0 21px #ffffff, 0 0 42px #000000;
+    background-position: center;
+    background-size: cover;
+    font-family: serif;
+    font-style: italic;
+    max-width: 116px;
+    min-width: 116px;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+}
+
+ol img {
+    width: 95px;
+}
+/* 
+
+TABLE LEFT STUFF 
+
+*/
+
+.topLeft {
+    max-width: 20%;
+    margin: auto;
+    left: 20%;
+    position: sticky;
+    min-width: 316px;
+}
+
+div#footer88x31s {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+#credo::before {
+    content: "Ego sum Deus";
+    position: absolute;
+    background: radial-gradient( #00000061, transparent);
+}
+
+td.shortRight {
+    background: url(https://i.imgur.com/HvJrkxt.png);
+    border: 2px black solid;
+    background-position: center;
+    background-size: cover;
+    color: snow;
+    overflow: hidden;
+    width: 100%;
+    text-shadow: -1px 0px 5px black, 1px 0px 18px black, 0px 0px 23px black, 0px 0px 72px black, 0px 0px 109px black;
+}
+
+#about ul {
+    background: crimson;
+    border: crimson groove 5px;
+    width: 50%;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+span#lastLogin {
+    font-size: 0px;
+}
+
+
+
+span#lastLogin::after {
+    content: "05/03/3005";
+    font-size: small;
+    background: url(https://i.imgur.com/mSxlsew.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #ffffff00;
+    background-size: auto;
+    background-position: inherit;
+    background-attachment: fixed;
+    filter: brightness(2.5);
+}
+
+span#lastLogin::before {
+    content: "05/03/3005";
+    font-size: small;
+    background: url(https://i.imgur.com/mSxlsew.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #ffffff00;
+    background-size: auto;
+    background-position: inherit;
+    background-attachment: fixed;
+    filter: brightness(2.5);
+    position: absolute;
+    background: radial-gradient( #000000bd, transparent);
+}
+
+img#avatar {
+    overflow: hidden;
+    background: url(https://i.imgur.com/2jusQeT.png);
+    position: relative;
+    left: -2px;
+    border: 2px solid;
+    background-size: cover;
+}
+
+.fwiendCount {
+    color: #ff99bd;
+    text-shadow: 0 0 10px #ffc9dc, 0 0 20px #ff98bc, 0 0 30px #ffa0a0, 0 0 40px #ffbfbf;
+}
+
+.url.box::before {
+    content: url(https://i.imgur.com/zakDJ2J.png) url(https://i.imgur.com/jjFWCnI.gif);
+    left: 51px;
+    position: absolute;
+    top: -6px;
+}
+
+.url.box {
+    font-size: 0px;
+    background: url(https://i.imgur.com/qPzhayi.gif);
+    background-size: 48px;
+    background-repeat: no-repeat;
+    position: fixed;
+    color: transparent !important;
+    height: 96px;
+    width: 308px;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    z-index: 10000000000;
+    left: 54px !important;
+    margin: -44px;
+    BOTTOM: 63px;
+    overflow: visible;
+}
+
+.url.box:hover {
+    background: url(https://i.imgur.com/Qa86298.png);
+    background-size: 48px;
+    background-repeat: no-repeat;
+    position: fixed;
+    color: transparent !important;
+    height: 96px;
+    width: 308px;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    z-index: 1000000000;
+    left: 54px;
+    margin: -44px;
+    BOTTOM: 63px;
+    overflow: visible;
+}
+
+.url.box::after {
+    background: url(https://i.imgur.com/UNLlR4z.gif);
+    top: 0px;
+    position: absolute;
+    content: url(https://i.imgur.com/r97jkM4.png);
+    background-size: 104px;
+    background-repeat: no-repeat;
+    background-position-x: 23px;
+    right: 24px;
+    background-position-y: 0px;
+    top: -67px;
+    width: 134px;
+    height: 149px;
+    image-rendering: auto;
+    z-index: 999999999999999999999 !important;
+}
+
+.url.box:hover:after {
+    background: url(https://i.imgur.com/XaStma1.gif);
+    top: 0px;
+    position: absolute;
+    content: url(https://i.imgur.com/r97jkM4.png);
+    background-size: 104px;
+    background-repeat: no-repeat;
+    background-position-x: 23px;
+    right: 24px;
+    background-position-y: 0px;
+    top: -67px;
+    width: 134px;
+    height: 149px;
+    image-rendering: auto;
+    z-index: 999999999999999999999 !important;
+}
+
+h2#name::before {
+    content: "HELLO MY NAME IS";
+    font-size: 26px;
+    max-width: 307px;
+    max-height: 32px;
+    text-transform: uppercase;
+}
+
+h2#name::after {
+    content: " ";
+    position: absolute;
+    background: url(https://i.imgur.com/JDArHuB.png);
+    width: 21px;
+    height: 22px;
+    background-size: contain;
+    top: 61px;
+    left: 218px;
+}
+
+h2#name {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, #ff0 29px, white 29px, white 59px, yellow 57px);
+    border: 1px black solid;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    width: 268px;
+    font-size: revert;
+    text-align: center;
+}
+
+.boxInfo.box {
+    border: 8px groove #570101;
+    background: url(https://i.imgur.com/ryJgvM7.png);
+    padding: 10px;
+    background-size: 100%;
+    color: red !important;
+    height: 100%;
+    width: 336px;
+}
+
+
+div#online::after {
+    content: url(https://i.imgur.com/YL3zBc6.gif);
+    image-rendering: pixelated;
+    margin: 7%;
+}
+
+div#report, #block {
+    cursor: not-allowed;
+}
+
+div#add {
+    cursor: cell;
+}
+
+div#sMsg {
+    cursor: alias;
+}
+
+
+div#online img {
+    width: 0px;
+    height: 0px;
+}
+
+.blockButton {
+  background-image: url(https://i.imgur.com/09Movi0.gif);
+    color: red;
+}
+
+.unfwiendButton {
+  background-image: url(https://i.imgur.com/09Movi0.gif);
+    color: red;
+}
+
+.fwiendButton {
+  background-image: url(https://i.imgur.com/kbNMnFL.gif);
+    color: red;
+}
+
+.msgButton {
+  background-image: url(https://i.imgur.com/bnB3zi2.gif);
+    color: red;
+}
+
+.reportButton {
+   background-image: url(https://i.imgur.com/2gZOXpH.gif);
+    color: red;
+}
+
+#imgPreview img {
+    width: auto;
+    height: 0;
+    max-height: 0px;
+    max-width: 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    border: 0px solid #fff;
+    cursor: zoom-out;
+    background: #fff;
+}
+
+img[src="https://i.postimg.cc/vB7fB6n0/2040button.png"] {
+    width: 86px;
+}
+
+#imgPreview::after {
+    content: url(https://i.imgur.com/ZyvJmhO.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 5px solid #fff;
+    cursor: zoom-out;
+    width: 176px;
+    height: 176px;
+    max-height: calc( 100% - 10px);
+    max-width: 100%;
+}
+
+.BuildersClub {
+    bottom: 0px;
+    position: fixed;
+    left: 0px;
+    margin-bottom: 0px;
+}
+
+/*
+song stuff goes here
+*/
+.player.box {
+    animation: 475s music linear infinite;
+}
+
+.blurbs .blogs div:hover {
+    background-size: contain;
+    filter: contrast(2.5);
+    animation: shaky linear infinite 0.01s;
+}
+
+.player.box {
+    padding: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    border: 5px solid #ffffff00;
+    border-radius: 0px;
+    color: white !important;
+    max-width: 100%;
+    background: url(https://i.imgur.com/2lzZcMR.png) 12px -4px;
+    height: 145px;
+    image-rendering: pixelated;
+    min-width: 356px;
+    top: 0px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 367px 269px;
+}
+
+.player.box::before {
+    content: " ";
+    width: 344px;
+    height: 264px;
+    background: url(https://i.imgur.com/BKSfhgu.png);
+    overflow: visible;
+    image-rendering: pixelated;
+    background-position: center;
+    min-width: 100%;
+    background-size: contain;
+    top: -5px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+
+.songName {
+    height: 48px;
+    font-size: 14px;
+    position: sticky;
+    left: 7%;
+    overflow: hidden !important;
+    top: 97px;
+    /* background: linear-gradient(180deg, transparent 0%, transparent 56%, #00000005 56%, #00480700 100%); */
+    color: #ffffffe3;
+    font-family: monospace;
+    width: 318px;
+}
+
+.songName:before {
+    content: url(https://i.imgur.com/SXmpbgL.gif);
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    animation: 24s marquee linear infinite reverse;
+    padding-left: 110%;
+    image-rendering: pixelated;
+    filter: hue-rotate(57deg) grayscale(1) brightness(26.5) drop-shadow(0px 0px 3px white);
+}
+
+.songName b {
+    color: transparent;
+    text-shadow: 0px 0px transparent;
+}
+
+span.song__title {
+    animation: 36s marquee linear infinite reverse, textRainbow 10s linear infinite;
+    width: 648px;
+    overflow: hidden !important;
+    position: absolute;
+    height: 20px;
+    padding-left: 103%;
+    padding-top: 20px;
+    top: 6px;
+    text-shadow: red -1px -2px 0px;
+    filter: drop-shadow(1px 1px 0px cyan);
+    display:none;
+}
+
+
+
+.songName img {
+    width: 0;
+}
+
+audio {
+    border: #afb3b6 groove 3px !important;
+    margin-top: 96px;
+    width: 301px;
+    height: 30px;
+    background: #afb3b6;
+    margin-left: 30px;
+    margin-right: 30px;
+    z-index: 10000;
+    position: absolute;
+}
+
+audio::-webkit-media-controls-enclosure {
+    background: transparent;
+}
+
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    background: #afb3b6;
+}
+
+audio::-webkit-media-controls-current-time-display, video::-webkit-media-controls-current-time-display {
+    color: #1b231a;
+    font-family: monospace;  
+    font-weight: bold;
+}
+
+audio::-webkit-media-controls-time-remaining-display, video::-webkit-media-controls-time-remaining-display {
+    color: #1b231a;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.blurbs>.blogs>div:nth-child(12) {
+    display: none;
+}
+
+/* 
+
+FOOTER STUFF 
+
+*/
+@media only screen and (max-width: 768px) {#footer{
+    width: 0px !important;
+    height: 0px !important;
+    font-size: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    content: " ";
+}}
+
+@media only screen and (max-width: 768px){#footer::before{
+    width: 0px !important;
+    height: 0px !important;
+    font-size: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    content: " ";
+}}
+
+@media only screen and (max-width: 768px) {div#footer::after{
+    width: 0px !important;
+    height: 0px !important;
+    font-size: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    content: " ";
+}}
+
+#footer {
+    font-size: small;
+    bottom: 7px;
+    display: grid;
+    text-align: center;
+    position: fixed;
+    float: left;
+    border: 2px #6b6b6b solid;
+    width: 239px;
+    height: 60px;
+    margin: 2px;
+    animation: footer 25s linear infinite;
+    color: white;
+    z-index: -1;
+}
+
+#footer a[href="/?login"]::before {
+    content: " | ";
+    color: cornflowerblue;
+}
+/*
+div#footer::before {
+    content: url(https://i.imgur.com/seqJqHg.gif);
+    image-rendering: pixelated;
+}
+
+div#footer::after {
+    content: url(https://i.imgur.com/mQAFlDc.png);
+    image-rendering: pixelated;
+}
+*/
+.topRight.blogPost img {
+    max-width: 100% !important;
+}
+
+/* 
+
+SYSTEM MESSAGE STUFF 
+
+*/
+
+form {
+    margin-bottom: 0px;
+    text-align: right;
+    background: yellow;
+}
+
+.svmsg {
+    margin: 10px;
+    margin-top: 0px;
+    width: 53%;
+    margin-left: 25%;
+    margin-right: 50%;
+}
+.svmsg p::after {
+    font-size: 17px;
+    content: "This website now belongs to Aydoplaydoh now.";
+    margin: 0px;
+}
+.svmsg p {
+    font-size: 0;
+    margin: 0px !important;
+}
+.svmsg h3::after {
+    content: " F46N is Pronounced FORESKIN";
+    font-size: 20px;
+}
+.svmsg h3 {
+    font-size: 0;
+}
+
+#svmsg {
+    background-color: #ffffff00;
+    color: transparent;
+    border: 0px solid transparent;
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+}
+
+
+/* 
+
+BLOG STUFF 
+
+*/
+
+
+.blogs {
+    color: #000000fa;
+    display: inline-flex;
+    max-width: 716px;
+    text-align: center;
+    height: 254px;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+    place-content: center;
+    margin-left: 6%;
+}
+
+
+.blurbs>.blogs>div:not(:first-child) {
+    height: 100px;
+    width: 100px;
+    margin-left: 3px;
+    margin-right: 3px;
+    word-spacing: 0px;
+    image-rendering: auto;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+}
+
+.blurbs .blogs div:nth-child(1) {
+    position: absolute;
+    color: transparent;
+    
+}
+
+.blurbs .blogs div:nth-child(2) {
+    background: url(https://i.imgur.com/ddHmQt3.png);
+    background-size: contain;
+    border: #39a37a 8px groove;
+}
+
+.blurbs .blogs div:nth-child(3) {
+    background: url(https://i.imgur.com/AKP1Rak.png);
+    border: #5a5a5a 8px groove;
+    background-size: contain;
+    color: red !important;
+
+}
+
+.blurbs .blogs div:nth-child(4) {
+    background: url(https://i.imgur.com/KgUtMLH.png);
+    background-size: contain;
+    border: #e4a4ff 8px groove;
+}
+
+.blurbs .blogs div:nth-child(5) {
+    background: url(https://i.imgur.com/AeNxrTJ.png);
+    background-size: contain;
+    border: #d09022 8px groove;
+    color: #a76900;
+}
+
+.blurbs .blogs div:nth-child(6) {
+    background: url(https://i.imgur.com/mjyQeRp.png);
+    background-size: contain;
+    border: #24578e 8px groove;
+    color: #ffffff;
+}
+
+
+.blurbs .blogs div:nth-child(7) {
+    background: url(https://i.imgur.com/8Q16fz9.png);
+    background-size: contain;
+    border: #00fe06 8px groove;
+    color: #ffffff;
+}
+
+.blurbs .blogs div:nth-child(7) a {
+    color: white !important;
+}
+
+
+.blurbs .blogs div:nth-child(8) {
+    background: url(https://i.imgur.com/5pcT9Zf.png);
+    background-size: contain;
+    border: #8a82ff 8px groove;
+    color: #000000;
+}
+
+.blurbs .blogs div:nth-child(8) a {
+    color: #8b76ff !important;
+}
+
+
+.blurbs .blogs div:nth-child(9) {
+    background: url(https://i.imgur.com/jGgOTxu.png);
+    background-size: contain;
+    border: #ff0000 8px groove;
+    color: #000000;
+}
+
+.blurbs .blogs div:nth-child(9) a {
+    color: #000000 !important;
+}
+
+.blurbs .blogs div:nth-child(10) {
+    background: url(https://i.imgur.com/kS8qP14.png);
+    border: #f7f619 8px groove;
+    background-size: contain;
+    color: white !important;
+}
+
+.blurbs .blogs div:nth-child(11) {
+    background: url(https://i.imgur.com/8xb9n4V.png);
+    border: #c39e10 8px groove;
+    background-size: contain;
+    color: white !important;
+}
+
+.blogCorpus img[src$="https://i.imgur.com/t5zQZKg.png"] {
+    width: -webkit-fill-available;
+    image-rendering: auto;
+}
+
+a[href="https://myspace.f46n.org/?blog=207&bid=1"] {
+    color: #38f43d !important;
+}
+
+.blogBody #container .topRight.blogPost .blogs .box.comments #userWall .tableLeft div {
+    margin-bottom: 0px;
+}
+/*
+.blurbs .blogs div:nth-child(2)::before {
+    background: url(https://i.imgur.com/zfONqoS.gif);
+    background-size: 47px 16px;
+    display: inline-block;
+    width: 47px;
+    height: 16px;
+    content: "";
+    position: relative;
+    top: 2px;
+}
+*/
+
+.blogCorpus {
+    padding-left: 3px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.blogCard .avatar {
+    width: 200px;
+    margin-right: 0px;
+    image-orientation: from-image;
+}
+
+.blogTitle {
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+.boxInfo.box a {
+    filter: sepia(1) saturate(1111111) hue-rotate(-3deg);
+}
+
+.box.blog {
+    border: 8px groove #457004;
+    background: url(https://i.imgur.com/OrkxhSA.gif);
+    padding: 10px;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+    background-size: auto;
+    color: white;
+    filter: blur(0.6px);
+    backdrop-filter: opacity(0.5);
+}
+.blogCorpus a {
+    color: #fe0049 !important;
+    font-variant: petite-caps;
+    font-weight: 800;
+    font-style: oblique;
+    text-shadow: 1px 1px black;
+}
+
+.blogCorpus h1 {
+    text-shadow: 2px 1px 2px black;
+    color: #fe0049;
+}
+
+.blogCorpus img {
+    width: -webkit-fill-available;
+    image-rendering: pixelated;
+}
+
+.blogs div, .blog div {
+    margin-bottom: 10px;
+    overflow: initial;
+}
+
+div#about img {
+    float: right;
+}
+
+/* 
+
+MISC 
+
+*/
+
+h4 {
+    text-shadow: 2px 1px 2px black;
+    color: #fff9f7;
+    size: 30px;
+}
+
+div[style="font-size:small;text-align:right;"]::after {
+    font-size: small;
+    content: "(Error/Error)";
+}
+div[style="font-size:small;text-align:right;"] {
+    font-size: 0px !important;
+}
+
+blockquote {
+    color: #ffec65;
+    margin: 0;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    /* animation: anim_acid 2s infinite; */
+}
+
+h1 {
+    text-shadow: 2px 1px 2px black;
+}
+
+.topRight p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div[style="font-size:small;margin-top:10px;"] {
+    margin-left: 16%;
+}
+
+.topRight.blogPost .blogs {
+    color: #000000fa;
+    display: initial;
+    overflow: auto;
+    left: 0px;
+    position: unset;
+    top: 0px;
+    width: auto;
+    text-align: unset;
+}
+
+div#checkmarkContainer {
+    filter: hue-rotate(223deg) saturate(9.5);
+    position: absolute;
+    z-index: -10;
+}
+
+.blurbs .blogs div:nth-child(3) a {
+    color: red !important;
+    text-shadow: 1px 1px 1px black;
+}
+
+.blurbs .blogs div:nth-child(11) a {
+    color: #ffe067 !important;
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.checkmark {
+    background: radial-gradient(black 20%, transparent 40%);
+    filter: drop-shadow(1px 1px 1px black);
+    width: 27px;
+}
+
+/* 
+
+LINKS STUFF 
+
+*/
+
+a[href$="?id=351"] .fwiendFace img {
+    height: 169px;
+}
+
+a[href$="?id=351"] .fwiendFace {
+    color: red;
+    background: black;
+    border: 2px #ef2121 solid;
+    font-family: Comic sans MS;
+}
+
+img[src="https://i.imgur.com/RqPm98M.png"] {
+    animation: pirating 4s linear infinite alternate;
+}
+
+img[src="https://i.imgur.com/caFyhCO.png"] {
+    animation: decesare 4s linear infinite alternate;
+}
+
+a[href="https://myspace.f46n.org/?getCSS=6"]:after {
+    content: "css";
+    animation: lights 0.000001s 0s cubic-bezier(1, -3.11, 0, 100) infinite, shake 0.5s cubic-bezier(0, 0, 0, 26) infinite;
+    color: transparent !important;
+    position: absolute;
+}
+
+img[src="https://i.imgur.com/fF0l3X7.png"] {
+    position: absolute;
+    left: 261px;
+}
+
+a[href="https://myspace.f46n.org/?id=367"] {
+    color: black;
+}
+
+a[href="https://myspace.f46n.org/?getCSS=6"] {
+    animation: shake 5s cubic-bezier(0, 0, 0, 26) infinite;
+    color: black !important;
+    position: absolute;
+    margin-left: 6px;
+}
+
+a[href="https://myspace.f46n.org/?music"] {
+    color: white !important;
+}
+
+a[href="https://crouton.net/"] {
+ background: url(https://crouton.net/crouton.png); background-size: 105px 91px; background-position-x: center; background-position-y: center; color: transparent !important; background-clip: text; -webkit-background-clip: text; font: icon; font-weight: 700;
+}
+
+a[href="https://myspace.f46n.org/awesome"] {
+    color: yellow !important;
+    background: url(https://i.gifer.com/origin/a0/a07ad08Ã¢â‚¬Â¦_w200.gif);
+    background-size: contain;
+    padding: 20px;
+    padding-left: 3px;
+}
+
+a[href$="https://discord.gg/trollface"]:active {
+    text-shadow: 1px 1px 2px #c9ffbf, -1px -1px 2px #ffafbd, 0.5px 0.5px #000, -0.5px -0.5px #000 !important;
+}
+
+a[href$="https://discord.gg/trollface"]:hover {
+    text-shadow: 2px 2px 4px #c9ffbf, -2px -2px 4px #ffafbd, 1px 1px #000, -1px -1px #000 !important;
+}
+
+a[href$="https://discord.gg/trollface"] {
+    font-size: 15px;
+    text-shadow: 4px 4px 8px #c9ffbf, -4px -4px 8px #ffafbd, 2px 2px #000, -2px -2px #000;
+    color: white !important;
+}
+
+a[href="https://damedanespace.com/u/51/"] {
+    background: url(https://i.imgur.com/babmde0.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    font-weight: bolder;
+    background-attachment: fixed;
+}
+
+a[href="https://meb.trolled.lol/?id=162"] {
+    color: #bcb3e2 !important;
+    font-weight: bolder;
+}
+
+a[href="https://myspace.windows93.net/?id=4781"] {
+    color: #be0000 !important;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px black;
+}
+
+
+a[href="https://f46n.org"] {
+    color: #3b006c !important;
+}
+
+a[href$="https://windows93.net"]:hover {
+    text-shadow: 0px 0px transparent !important;
+}
+a[href$="https://windows93.net"] {
+    background: linear-gradient(135deg,#f0f 0,#0ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+}
+
+a[href="/?blog=6"] {
+    color: yellow !important;
+    text-shadow: 2px 2px black;
+}
+
+a[href="/?static=about"], a[href="/?static=help"] {
+    color: #91ff84 !important;
+    animation: anim_acid 1s linear infinite;
+    cursor: help;
+}
+
+a[href="/?static=about"]::after {
+    content: " | ";
+    color: cornflowerblue;
+}
+
+a[href="/?login"] {
+    color: #91ff84 !important;
+    animation: anim_acid 1s linear infinite;
+}
+
+a[href="/?fwiends=6"] {
+    color: #ff015b !important;
+}
+
+a#editLink {
+    color: #009b2d !important;
+}
+
+/* 
+
+COMMENTS STUFF 
+
+*/
+
+
+.undertale {
+ font-family: undertale;
+}
+
+#commentInput {
+    width: 100%;
+    margin: 0;
+    margin-top: 0px;
+    height: 100px;
+}
+
+.tableLeft > a > div { overflow: hidden; max-width: none; text-align: center;}
+
+input[value="Send"] {
+    border: 0px;
+    background-image: url(https://i.imgur.com/CpqHBVp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+    width: 100%;
+    height: 41px;
+    image-rendering: pixelated;
+    background-position: right;
+    background-color: yellow;
+    position: relative;
+    top: -4px;
+}
+
+input[value="Delete"] {
+    background: url(https://i.imgur.com/sxGNSfH.png);
+    border: 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 57px;
+    float: right;
+    color: transparent;
+    image-rendering: pixelated;
+}
+
+a.blinkRed {
+    color: #ff1d1d !important;
+}
+
+form[action$='?id=6'] textarea {
+    background: url(https://i.imgur.com/MAj03E6.png);
+    background-size: cover;
+    background-position: top;
+    max-width: 98%;
+    border: 8px solid #ffff00;
+    image-rendering: pixelated;
+    min-height: 475px;
+}
+
+.tableLeft {
+    background: #ffff05;
+    width: 25% !important;
+    padding: 10px;
+    vertical-align: top;
+    overflow: hidden;
+    border: 8px groove #d1b02c;
+    border-right: 0px;
+}
+
+table#userWall {
+    background: #ffff05;
+    margin-top: 0px;
+}
+
+td.tableLeft img {
+    width: 100%;
+}
+
+.box.comments .boxHead:nth-child(1) {
+    background: linear-gradient(180deg, #cd0048 50%, #ffff00 50%);
+}
+
+.box.comments .boxHead:nth-child(1) b {
+    background: linear-gradient(180deg, #ffff00 50%, #cd0048 50%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.mention:hover {
+    background: #6a5acd;
+}
+
+.mention::before {
+    content: "@";
+}
+
+.mention {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0px;
+    background: #847bba;
+    width: max-content;
+    padding: 1px;
+    position: inherit;
+    border-radius: 5px;
+    padding-right: 3px;
+    color: white;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.mention a:hover {
+    text-shadow: 0px 0px transparent !important;
+}
+
+.mention a {
+    color: white !important;
+    text-decoration: none;
+}
+
+audio::-webkit-media-controls-play-button, video::-webkit-media-controls-play-button {
+    position: static;
+    background: url(https://i.imgur.com/NLLeBOS.png);
+    background-size: 39px 32px;
+    background-position: 0px 0
+        px;
+    margin-left: 4px;
+}
+
+audio::-webkit-media-controls-play-button:active, video::-webkit-media-controls-play-button:active {
+    background: url(https://i.imgur.com/ZswSofS.png);
+    background-size: 39px 32px;
+    background-position: 0px 0
+        px;
+    margin-left: 4px;
+}
+
+.controls button[data-state="play"] {
+    position: static;
+    background: url(https://i.imgur.com/NLLeBOS.png);
+    background-size: 39px 32px;
+    background-position: 0px 0
+        px;
+    margin-left: 4px;
+}
+
+.controls button[data-state="play"]:active {
+    background: url(https://i.imgur.com/ZswSofS.png);
+    background-size: 39px 32px;
+    background-position: 0px 0
+        px;
+    margin-left: 4px;
+}
+
+a.blinkViolet {
+    filter: hue-rotate(129deg) saturate(117.5);
+}
+
+a.linklol[href="https://myspace.f46n.org/?id=110"] {
+    top: 467px;
+}
+
+#credo:hover {
+    background: radial-gradient(black, #0000001c);
+}
+
+/* 
+
+comment username stuff 
+i plan on doing one for every user (that comments on my page)
+so if you're reading this you should comment on my page :)  NOW IN  NUMBER ORDER FUTURE ME DONT FUCK THIS UP 
+everything BUT the planets are in number order
+
+*/
+/* sun */
+a[href="/?id=367"] img, a[href="/?id=367"] div { background: url(https://cdn.wallpapersafari.com/1/97/co341S.jpg); color: #eb3200; text-shadow: 0px 0px 5px #ff3100, 0px 0px 5px #ff3100; background-size: contain;}
+#top a[href="?id=367"] .fwiendFace { background: url(https://static.nationalgeographic.co.uk/files/styles/image_3200/public/webbdeepfield.jpg?w=1600&h=900); background-size: contain; color: #eb3200; text-shadow: 0px 0px 5px #ff3100, 0px 0px 5px #ff3100;}
+#top a[href="?id=367"] .fwiendFace b::after { content: "â˜‰";}
+
+/* mercury */
+a[href="/?id=237"] img { background-position-y: -16px;
+ image-rendering: auto;}
+a[href="/?id=237"] img, a[href="/?id=237"] div { background: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhY2UlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80); color: #ffffff; text-shadow: -1px 1px #a4a3a1, -2px 2px black;}
+
+/* venus */
+a[href="/?id=238"] div, a[href="/?id=238"] img{ background: url(https://i.imgur.com/Zaqz6Vp.jpg); background-size: cover; color: #ffa500; text-shadow: 1px 1px #d7cb7f}
+
+/* earth */
+a[href="/?id=239"] div, a[href="/?id=239"] img{ background: url(https://img.freepik.com/premium-photo/beautiful-blue-space-nebula-elements-this-image-furnished-by-nasa_496756-8818.jpg); background-size: cover; color: #32c206; text-shadow:0px 0px 1px white,0px 0px 4px black;}
+
+/* mars */
+a[href="/?id=240"] div, a[href="/?id=240"] img{ background: url(https://cdn.pixabay.com/photo/2020/04/15/05/21/red-5045141_1280.jpg); background-size: cover; color: #cc1b00; text-shadow: 1px 1px #8f2600}
+ 
+/* jupiter */
+a[href="/?id=241"] div, a[href="/?id=241"] img{ background: url(https://thumbs.dreamstime.com/b/yellow-space-color-texture-abstract-background-galaxy-black-173561021.jpg); background-size: cover; color: #ea7e51; text-shadow:0px 0px 4px black;}
+
+/* saturn */
+a[href="/?id=242"] div, a[href="/?id=242"] img{ background: url(https://c4.wallpaperflare.com/wallpaper/709/993/165/space-universe-stars-black-and-yellow-galaxies-wallpaper-preview.jpg); background-size: cover; color: #b7a077; text-shadow: -0.5px 0.5px #e4bdaf}
+
+/* uranus */
+a[href="/?id=243"] div, a[href="/?id=243"] img{ background: url(https://i.imgur.com/R5Kujmf.png); background-size: cover; color: #000000;text-shadow:0px 0px 4px rgb(101,146,177);
+}
+
+/* neptune */
+a[href="/?id=244"] div, a[href="/?id=244"] img{ background: url(https://images2.alphacoders.com/678/678913.jpg);  color: #0037b1; text-shadow: -0.5px 0.5px #ffffff}
+
+/* tom */
+a[href$='id=1'] div { animation: anim_acid 2s infinite; color: #abff00 !important; background: aqua;}
+a[href$='id=1'] b::after { content: url(https://i.imgur.com/QGxDVp2.png); position: absolute;}
+
+/* mr wader */
+a[href$="?id=2"] { font-size: 0px;}
+a[href$="?id=2"] b::after { font-size: 13px; font-weight: bold; content: "swagmaster69"; color: cyan; animation: anim_acid 2s infinite; position: sticky; top: 13px; z-index: 2;}
+a[href$="?id=2"] img { border: 0px transparent; border-radius: 545px; height: 165px; width: 165px; margin-left: 2%; margin-top: 5px;}
+a[href$="?id=2"] .fwiendFace { border: #000000 2px solid; background: #000000; border-radius: 0px;}
+
+/* neil */
+a[href$='?id=3'] div { background: url(https://imgur.com/oK9L1d9.gif) center fixed; color: red; font-family: monospace; font-variant-numeric: ordinal;}
+a[href$='?id=3'] img { filter: saturate(17.5);}
+a[href$='id=3'] b::after { content: " (TRUE 1st commenter)";}
+
+/* clonabi hanabi bonabi */
+a[href$='?id=4'] b { background: url(https://i.pinimg.com/originals/04/48/dc/0448dc0Ã¢â‚¬Â¦.gif); background-clip: text; -webkit-background-clip: text; color: transparent !important;}
+
+/* mono "fork" wavy */
+a[href$='id=5'] b { background-image: url(https://cdn.upload.systems/uploads/PnocEDV3.gif); -webkit-background-clip: text !important; background-clip: text; color: transparent;}
+a[href$='id=5'] div { background: black; border: solid white; border-bottom: 0px;}
+
+/* aydo */
+.tableLeft a[href$="?id=6"] { color: black !important;}
+.tableLeft a[href$="?id=6"] b::after { content: url(https://i.imgur.com/him4fjF.png); font-size: 10px; max-width: 20px; max-height: 20px;}
+
+/* ahega */
+a[href$='?id=7'] div { font-size: 10px; color: #F2E58F !important; background: rgb(41 41 41);}
+
+/* lolman */
+a[href$="?id=8"] { font-family: Consolas, 'Lucida Sans Typewriter', 'Lucida Console', monospace; color: #ff6800 !important; font-weight: lighter !important;}
+a[href$="?id=8"] div, a[href$="?id=8"] img { background: url(https://www.lolman707.net/stuff/backtile.png); background-size: 17px 17px;}
+
+/* 1024x2 */
+a[href$='id=9'] b::after { content: " Ã°Å¸Â¥Â´"; color: white; font-size: smaller;} 
+a[href$='id=9'] b { color: green !important;}
+
+/* nothing click */
+a[href$='?id=10'] b { color: white !important;}
+
+/* nepeno */
+a[href$='?id=11'] b { font-family: 'Roboto'; color: #631d97 !important; background: black;}
+.tableLeft a[href$='?id=11'] b::after { content: url(https://i.imgur.com/lguwGyn.png); position: absolute;}
+a[href$='?id=11'] img { width: 100%;}
+a[href$='?id=11'] div { background: black;}
+
+/* hulk hogan */
+a[href$='?id=12'] div { font-style: italic; font-weight: 700; font-family: Helvetica; color: #B30914 !important; text-shadow: 2px 2px black, 1px 2px black, 2px 1px black; background: #ffe600;}
+
+/* Borpaspin */
+/* id=13 idiot fucked up signing up */
+
+/* moss */
+a[href$='?id=14'] { text-shadow: 1px 1px #000000; color: hotpink !important;}
+
+/* borpa */
+a[href$="?id=15"] { color: #ff0000 !important; font-family: fantasy;}
+#top a[href$="?id=15"], #top a[href$="?id=15"] div { background: radial-gradient(#97000096, black); text-shadow: 2px 2px black;}
+
+/* cont */
+a[href$='?id=16'] div { font-family: "Verdana", sans-serif; text-shadow: 3px 3px 5px grey; border: 1px solid #babdd0; background: linear-gradient(45deg, #babdce, #c3bfce); color: #fabdca !important;}
+
+/* roland */
+a[href="/?id=17"] div { background: rgb(247 247 247); font-family: 'American Typewriter', serif; color: black; font-size: 15px; text-shadow: 0px 0px 2px black;}
+a[href="/?id=17"] img { width: 96.5%; border-top: 0px !important;}
+a[href="/?id=17"] div, a[href="/?id=17"] img { border: 3px solid #000000;}
+
+/* varie */
+a[href="/?id=18"] div { background: black; color: aliceblue; text-shadow: -2px 0px #b500c3, 2px 0px #003bc3; font-family: symbol, wingdings, webdings, ubuntu, comic sans ms; width: 125px;}
+a[href="/?id=18"] img { height: 125px; width: 125px;}
+
+/* hibye217 */
+/* id=19 another idior */
+
+/* hibye217 */
+a[href="/?id=10"] div { background: black; border: solid white 4px; font-family: cursive; width: 100%;}
+a[href="/?id=10"] img { border: 4px solid blue; border-image: url(https://media.tenor.com/AP7Eug4uSXcAAAAd/trippy-colorful.gif) 20 round;}
+
+/* skull */ 
+a[href$='?id=21'] { font-size: 0px;}
+a[href$='?id=21'] b::after { content: url(https://i.imgur.com/kAeWLAX.png);}
+a[href$='?id=21'] img { filter: saturate(60%); padding: 1px; vertical-align: top; overflow-wrap: anywhere; background: linear-gradient(180deg, #ffffff 0%, #a6b9ff 100%); border: 4px solid; border-top: 0px;}
+a[href$='?id=21'] div { filter: saturate(60%); padding: 1px; vertical-align: top; overflow-wrap: anywhere; background: linear-gradient(180deg, #2554ff 0%, #ffffff 100%); border: 4px solid; border-bottom: 0px; width: 100%;}
+
+/* koala */
+a[href$="?id=25"] { color: #ff69b4 !important;}
+a[href$="?id=25"] .fwiendFace { border: 2px #ef2121 solid; background: url(https://i.imgur.com/eJqTN6M.jpg); background-size: contain; animation: bgmove 8s infinite alternate;}
+
+/* Dr.Coomer */
+a[href="/?id=26"] img { border: black 3px solid; border-top: 0px;}
+a[href="/?id=26"] div { background: linear-gradient(to left, black, darkred, red); color: #ff0000; border: black 3px solid; width: 100%; border-bottom: 0px;}
+
+/* shoe box */
+a[href="/?id=29"] img { border: double #ff1a2f80 3px; border-top: 0px; background: #000000 !important; width: 100%;}
+a[href="/?id=29"] div { border: double #ff1a2f80 3px; border-bottom: 0px; font-family: "MS PGothic"; background: #000000; width: 100%; color: white; text-shadow: -1px -1px 0px #ff1a1a,1px 1px 0px aqua;}
+
+/* anders aka SG_PROGRAM */
+a[href$='?id=31'] div { background: url(https://idiot.business/idiot.png); background-size: contain; background-repeat: no-repeat; background-position: center; image-rendering: pixelated; color: transparent;}
+
+/* kirz */
+a[href$='?id=32'] div { color: #009eff !important; background: url(https://media.istockphoto.com/photos/the-main-ingredient-in-ecstasy-pills-in-its-pure-form-picture-id1187294562?k=20&m=1187294562&s=612x612&w=0&h=qqxm154NN1MXBCVF8K0bVPcPswUwAcyzsCPeLFUXOR8=); text-shadow: 1px 1px blanchedalmond;}
+a[href$='?id=32'] img { background: url(https://media.istockphoto.com/photos/the-main-ingredient-in-ecstasy-pills-in-its-pure-form-picture-id1187294562?k=20&m=1187294562&s=612x612&w=0&h=qqxm154NN1MXBCVF8K0bVPcPswUwAcyzsCPeLFUXOR8=); background-position-y: -16.9px;}
+
+/* ark63 */
+a[href="/?id=39"] div {  color: cyan !important; background:url(https://i.ibb.co/zGvQZM9/5780-A84-E-584-D-4-E06-8-D93-0-D08-C547-D41-F.gif); background-size: 100%;}
+
+/* bbaluka */
+a[href$='?id=51'] { animation: 0.2s rotatemadnes infinite alternate; color: #ef2efc !important; background: #14ff4c;}
+
+/* gaggle tom */
+a[href$='?id=61'] { color: #ffff05 !important; text-shadow: 2px 2px black !important;}
+a[href$='?id=61'] .fwiendFace { height: 188px; background: #000000b0; border: black 2px solid;}
+
+/* real az */
+a[href$='?id=63'] b { background: linear-gradient(180deg, #2cc7c7, #351dad, #85ed9b); background-clip: text; -webkit-background-clip: text; color: transparent;}
+a[href$='?id=63'] div { background: linear-gradient(90deg, #351dad, #2cc7c7, #85ed9b);}
+
+/* SCARY */
+a[href$='?id=64'] b::after { content: 'Ã¢Å¡ Ã¯Â¸Â'; position: sticky;}
+a[href$='?id=64'] b::before { content: 'Ã¢Å¡ Ã¯Â¸Â'; position: sticky;}
+
+/* D1ABED1C */
+a[href="/?id=67"] img { border: 2px solid black; width: 98% !important; border-top: 0px; box-shadow: 0px 4px 10px black;}
+a[href="/?id=67"] div { border-radius: 8px 8px 0 0; background: repeating-linear-gradient(to bottom, transparent, black 3px), linear-gradient(to bottom, black 30%, #4f555c);text-shadow: 0 5px 5px black; color: white !important; box-shadow: 0px 0px 10px black;}
+
+/* bill clinton */
+a[href$='?id=71'] b { color: #f90000; text-shadow: 0 0 1px #f00002, 0 0 5px #dc0004, 0 0 1px #7e0210;}
+
+/* yeah */
+a[href$='?id=73'] { color: black !important;}
+
+/* smosh */
+a[href$='?id=74'] div { background: #e61a89; color: white !important; font-family: monospace;}
+
+/* alex9997979z */
+a[href$='?id=76'] div { background: #8b0000; color: red !important; font-family: Courier New, monospace;}
+a[href$='?id=76'] img { background: #8b0000;}
+
+/* valvatorez */
+a[href$='?id=77'] div { color: #b33f4a !important; background-color: #ffffff; width: -webkit-fill-available; border: 2px solid #b13242; border-bottom: 0px;}
+
+/* Cap N Cook Jesse */
+a[href$='?id=79'] img { border-top: 0px; background: url(https://i.imgur.com/0HEUb3r.png);}
+a[href$='?id=79'] div { border-bottom: 0px; font-family: system-ui; font-weight: bold; background: #283713; color: white;}
+a[href$='?id=79'] div, a[href$='?id=79'] img { border: green 2px solid; width: 100%;}
+
+/* lastchance */
+a[href$='?id=80'] b { color: #ffffff57 !important; background: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2012%2F06%2Fbreaking-bad-victor_320.jpg&q=60); background-position-x: -57px; background-position-y: -54px;}
+
+/* flynn */
+a[href$="?id=83"] { font-family: Comic Sans,Comic Sans MS,cursive; color: #1ba11a !important;}
+
+/* userpaste */
+a[href$='?id=87'] img { border-bottom: black 2px solid; width: 100%; border-left: white 2px solid; border-right: black 2px solid; border-top: white 2px solid;}
+a[href$='?id=87'] div { text-shadow: 2px 2px #232336, 1px 1px #232336; font-family: cursive; font-style: italic; color: black !important; border-top: white 2px solid; width: 100%; border-left: white 2px solid; border-right: black 2px solid; background: silver; padding-bottom: 2px; border-bottom: black 2px solid;}
+
+/* toby fox */
+a[href$="?id=88"] { font-family: undertale;}
+a[href$="?id=88"] b { background: black; color: white;}
+a[href$="?id=88"] b::before { content: "*";}
+a[href$="?id=88"] div { background: black;}
+
+/* god AKA Eric Andre */
+.tableLeft a[href$="?id=94"] { color: cyan !important; animation: anim_acid 1s infinite; font-size: 16px;}
+
+/* nono */
+a[href$='?id=96'] { color: #22002a !important}
+
+/* stanely (obviously) */
+a[href$='?id=97'] b::after { content: 'squid game free download'; font-size: large; font-family: 'undertale';}
+a[href$='?id=97'] { font-size: 0px;}
+a[href$='?id=97'] div { background-image: url(https://i.kym-cdn.com/entries/icons/original/000/028/534/cover5.jpg); background-size: cover; background-color: #f9f9f9; background-position-x: 70px; background-position-y: 1px; background-repeat: no-repeat;}
+
+/* Micheal Soft */
+a[href$='?id=113'] b { font-size: 0; }
+a[href$='?id=113'] b:after { font-size: 15px; font-weight: bold; content: "Microsoft Support"; background: linear-gradient(90deg, #ff4d00 0%, #58be00 25%, #009ef4 75%, #ffba01 100%) !important; background-clip: text; color: transparent !important; -webkit-background-clip: text !important;}
+
+/* Online Now! */
+a[href="/?id=114"], a[href="/?id=114"] div, a[href="/?id=114"] img { background: url(https://myspace.f46n.org/res/online.gif); color: #009b00;}
+
+/* ziad */
+a[href$="?id=123"] b { font-family: Arial, sans-serif; color: #00fe8f !important; animation: rainbowz 30s linear infinite; text-shadow: 2px 2px #555;}
+a[href$="?id=123"] div { background: url(https://ziad87.net/yea.gif); animation: bgmove 100s linear infinite; background-size: cover;}
+a[href$="?id=123"] img { background: url(https://ziad87.net/yea.gif); image-rendering: auto; animation: bgmove 100s linear infinite; background-size: cover; width: 100%;}
+
+/* taki */
+a[href$='?id=126'] div { backdrop-filter: blur(10px) brightness(60%); background: #2d2144e8; border: 1px solid #5d06ffa1; border-radius: 3px 3px 0px 0px; border-bottom: 0px; color: #9359ff; background-image: url(https://taki.moe/mspace/img/8VvOdd10b.gif), url(https://taki.moe/mspace/img/background.jpg); background-size: contain; background-blend-mode: lighten, normal;}
+a[href$='?id=126'] img { border: 1px solid #5d06ffa1; border-radius: 0px 0px 3px 3px; width: 99%;}
+
+/* nostalgical Grunge */
+a[href$='?id=136'] div { background: #d54845; color: #b24234 !important; text-shadow: 2px 1px black; border: 1px solid #1e181a; border-bottom: 0px;}
+
+/* afjensjkn */
+a[href$='?id=151'] b:before { content: url(https://i.imgur.com/1GttHGm.png);}
+a[href$='?id=151'] b { font-size: 0;}
+a[href$='?id=151'] div { background: white;}
+
+/* noob */
+a[href$='?id=154'] div { color: #fef260 !important; font-variant: unicase; font-size: smaller;}
+a[href$='?id=154'] div { background-size: auto;}
+a[href$='?id=154'] img { background: url(https://i.imgur.com/rlofX0n.jpg);}
+a[href$='?id=154'] div { background: #0258d1;}
+
+/* the other mother (fucker) */
+a[href$='?id=173'] b { background: url(https://www.icegif.com/wp-content/uploads/icegif-102.gif); background-clip: text; -webkit-background-clip: text; color: transparent; background-size: auto;}
+a[href$='?id=173'] div { background: url(https://img1.picmix.com/output/stamp/normal/8/6/6/9/1699668_95abb.gif);}
+
+/* googleplex */
+a[href$='?id=175'] div { background: url(https://myspace.f46n.org/u/175/avatar.jpg); background-size: cover; background-position: inherit; color: #e9cfc2;}
+
+/* 100th fwiend Snufkin */
+a[href$='?id=178'] b:before { content: "Snufkin"; background: url(https://i.imgur.com/nvdSZfE.png); background-size: contain; font-size: 41px; color: transparent; position: absolute; image-rendering: pixelated; background-repeat: no-repeat; background-position: center; left: 6%;}
+a[href$='?id=178'] b { color: transparent;}
+
+/* x64  */
+a[href="/?id=179"] img { border-top: 0px; z-index: 0;}
+a[href="/?id=179"] div b:before { content: "xtract"; font-size: 15px; font-family: arial; color: #FF40D4;}
+a[href="/?id=179"] div { border-bottom: 0px; z-index: 1; font-size: 0px;}
+a[href="/?id=179"] div, a[href="/?id=179"] img { box-shadow: 0px 0px 10px #8b8eff; width: 95%; margin: 3px; margin-top: 0px; margin-bottom: 0px; background: white; border: dashed #8b8eff 1px; position: sticky;}
+
+/* notjustin */
+a[href$='?id=180'] div { color: transparent !important; background-clip: text; -webkit-background-clip: text; background: url(https://i.imgur.com/YQUy06w.gif); background-attachment: fixed; text-shadow: 0px 0px #141519;}
+a[href$='?id=180'] b { border: 2px solid #797979; border-bottom: 0px; background: #797979; color: #7b98bd;}
+
+/* barney calhoun */
+a[href$='?id=184'] b { background: black; padding-left: 10px; padding-right: 10px;}
+a[href$='?id=184'] div { background: url(https://i.imgur.com/N72Scec.png); background-size: cover; background-position: bottom; color: #254272;}
+
+/* gordon freeman */
+a[href$='?id=186'] b { background: black; padding-left: 6px; padding-right: 6px; color: #e3591b;}
+a[href$='?id=186'] div { background: url(https://i.imgur.com/8w1Rwe9.png); background-size: cover; image-rendering: pixelated;}
+
+/* reina */
+a[href$="?id=196"] b::after { content: "reina!"; font-size: 24px; color: #521616; animation: changeColor 1.5s linear infinite;}
+a[href$="?id=196"] b { font-size: 0px; font-family: century gothic;}
+a[href$="?id=196"] div { background: #00000094; border: 0; border-radius: 8px 8px 0px 0px;}
+a[href$="?id=196"] img { border: 0; border-radius: 0px 0px 8px 8px;}
+
+/* elaine */
+a[href="/?id=198"] div { background: linear-gradient(#000000,#ab6aab, #ffbdeb); text-shadow: 0px 0px 2px; color: #fccddd; font-family: "century gothic";}
+
+/* banana */
+a[href$="?id=201"]:hover { text-shadow: -1px 1px 0px #4c3b13 !important;}
+a[href$="?id=201"] { color: #f6e031 !important; text-shadow: -2px 2px 0px #c0901c;}
+a[href$="?id=201"] div { border-bottom: 0px; width: 175px; background: url(https://img.favpng.com/23/20/5/banana-bread-cooking-banana-red-banana-food-png-favpng-APUXYuT0Ymx9qeUr5PrBAd3VL_t.jpg); background-size: contain;}
+a[href$="?id=201"] div, a[href$="?id=201"] img { border: #ffbe1c solid;}
+a[href$="?id=201"] img { border-top: 0px; width: 175px;}
+
+/* mspa */
+#top a[href="?id=207"] .fwiendFace { background: #eeeeee; font-family: monospace; color: black; font-weight: bolder; border: 3.5px #c6c6c6 solid; margin: -3px; padding: 0px; height: 167px;}
+a[href="/?id=207"] img { background: #eeeeee; font-family: monospace; color: black; font-weight: bolder; border: 3.5px #c6c6c6 solid; border-top: 0px; width: 96.5%;}
+a[href="/?id=207"] div { background: #eeeeee; font-family: monospace; color: black; font-weight: bolder; border: 3.5px #c6c6c6 solid; border-bottom: 0px;}
+
+
+/* pyroclast */
+a[href="/?id=208"] div { height: 19px; background: #010201;}
+a[href="/?id=208"] b::after { text-shadow: 2px 2px 0px #b6ff00; position: absolute; content: "pyroclast"; color: #b6ff3100; left: 54px;}
+a[href="/?id=208"] b::before { position: absolute; content: "pyroclast"; color: #b6ff00;}
+a[href="/?id=208"] b { top: 41px !important; color: #07161a; text-shadow: 1px 1px 0px #07171b;}
+
+/* Irishelf7175 */
+a[href="/?id=209"] div { border: 2px solid; border-image-slice: 1; border-image-source: var(--gradient); font-family: Courier, sans-serif; color: black !important; background: #c0c0c0;}
+
+/* peter griffin */
+a[href="/?id=211"] div { background: #89cbee; border-top: 3px #69bfee solid; color: #ffffff;}
+
+/* sweets */
+a[href="/?id=214"] img { border: white 3px solid; border-top: 0px;}
+a[href="/?id=214"] div { border: white 3px solid; border-bottom: 0px; background: black; width: 100%; color: white; text-shadow: 0px -1px 7px white;}
+
+/* ilker */
+a[href="/?id=218"] div { border: 4px white solid; background-color: #e40310; color: white !important;}
+
+/* Bear_Dea */
+a[href="/?id=224"] div { background: #aeaeae; color: #4b4b4b !important; }
+a[href="/?id=224"] img { width: 100% }
+
+/* octopixel */
+a[href="/?id=227"] div { background: #2e676b; width: 100%; font-size: medium; font-family: math; color: #ccfcff;}
+
+/* Zoja */
+a[href="/?id=228"] div { background: #fb0945; border: 4px solid; border-top-color: #fff; border-right-color: #000; border-bottom-color: #000; border-left-color: #fff; color: black;}
+
+/* werthorga */
+a[href="/?id=231"] div, a[href="/?id=231"] img {border: black 2px solid;}
+a[href="/?id=231"] div { background: url(https://werthorga.000webhostapp.com/ass/werthorga.png) white; height: 42px; background-size: cover; color: transparent; border-bottom: 0px !important; width: 100%;}
+
+/* nit */
+a[href="/?id=235"] div { background: #ed4245; color: white; font-variant: petite-caps;}
+
+/* saku */
+a[href="/?id=245"] div { background: linear-gradient(90deg, #717274 32%, #8a8b8f); color: #bce300; text-shadow: 1px 1px black;}
+
+/* Pluto */
+a[href$='?id=259'] div { color: #47b14d !important; background: url(https://cdn.discordapp.com/attachments/889516883353681960/1049938366193479690/pnsquqc0b44a1.png); text-shadow: 1px 1px #358936;}
+a[href$='?id=259'] img { background: url(https://cdn.discordapp.com/attachments/889516883353681960/1049938366193479690/pnsquqc0b44a1.png);}
+
+/* Europa */ 
+a[href="/?id=260"] img { border: double #2a4b56 3px; border-top: 0px; background: #1f313a !important; width: 100%;}
+a[href="/?id=260"] div { border: double #2a4b56 3px; border-bottom: 0px; background: #1f313a; width: 100%; color: #c97f00; text-shadow: -1px -1px 0px #f5a902, 1px 1px 0px #fefde8;}
+
+/* jgygghbhjhf */
+a[href="/?id=267"] img { background: url(https://i.imgur.com/x8t3B88.png); }
+a[href="/?id=267"] div { background: url(https://i.imgur.com/x8t3B88.png); background-position: 52px, 0px; color: black !important;}
+
+/* Apple Support */
+a[href$='?id=282'] b { font-size: 0; }
+a[href$='?id=282'] b:after { font-size: 15px; font-weight: bold; content: "Apple Support"; background: linear-gradient(90deg, #a8a8a8 0%, #aaaaaa 25%, #646464 75%, #bebebe 100%) !important; background-clip: text; color: transparent !important; -webkit-background-clip: text !important;}
+a[href$='?id=282'] div { background:#f7f7f7; }
+
+/* y2kid */
+a[href="/?id=284"] img { border-top: 0px !important;}
+a[href="/?id=284"] div { border-bottom: 0px !important; border-top: 5px; color: yellow; text-shadow: 1px 1px 2px pink, 3px 1px 1px red, 2px 4px 1px blue; font-family: comic sans ms; font-size: 15px; font-weight: bold;}
+a[href="/?id=284"] img, a[href="/?id=284"] div { border: ridge 5px pink !important; background-image: url(https://dl.glitter-graphics.com/pub/1422/1422535dj6yvplb9t.jpg); width: 95%; background-size: cover;}
+
+/* pizza */
+a[href$="?id=290"]:hover { text-shadow: -2px 2px 0px #000000 !important;}
+a[href$="?id=290"] { color: #ff5353 !important; text-shadow: -2px 2px 0px #bb0000;}
+a[href$="?id=290"] div { border-bottom: 0px; width: 175px; background-image: url(https://d257c1zjbj9yqq.cloudfront.net/general-uploads/Menu-Images/_800x418_crop_center-center_82_none/Bronco.png?mtime=1617398245); background-color: white; background-size: 34px;}
+a[href$="?id=290"] div, a[href$="?id=290"] img { border: #ea3a3a solid;}
+a[href$="?id=290"] img { border-top: 0px; width: 175px;}
+
+
+/* squirreljacker4 */
+a[href$="?id=291"] div { background: black;}
+a[href$="?id=291"] { font-family: undertale;}
+a[href$="?id=291"] b::before { content: "*";}
+a[href$="?id=291"] b { background: black; color: white;}
+
+/* emeri */
+a[href$='?id=292'] div { background: url(https://i.imgur.com/27Sk8NM.gif) center; color: red; font-family: system-ui; border: red 2px solid; border-bottom: 0px; filter: grayscale(1);}
+a[href$='?id=292'] img { border: #282828 2px solid; border-top: 0px;}
+a[href="/?id=292"] img, a[href="/?id=292"] div { width: 95%;}
+
+/* nihilbunny */
+a[href="/?id=297"] div { background: url(https://media.tenor.com/1QE1cPvC-78AAAAM/glitter-stars.gif); color: aliceblue;}
+
+/* Gus */
+a[href="/?id=301"] img { background: url(https://i.imgur.com/Sy4cUTG.jpg); background-size: cover;}
+a[href="/?id=301"] div { background: #fccc00; background-size: cover; color: #003399; font: icon;}
+
+/* rex */
+a[href="/?id=303"] div { background: url(https://scemoboy.carrd.co/assets/images/gallery05/f80d9578.jpg?v=b2f5705a); background-size: cover; animation: bgmove 12s cubic-bezier(0, 0.48, 0.9, 0.07) infinite; color: #dc8be0; font-family: Courier New, monospace;}
+
+/* ghostie */
+a[href="/?id=350"] div { background: linear-gradient(111deg, #726aa5 47%, #193251 49%); color: aliceblue;}
+
+/* awtch */
+a[href$="?id=351"] img { color: red; background: black; border: 2px #ef2121 solid; font-family: Comic sans MS; width: 90.5%; border-top: 0px; padding: 7px;}
+a[href$="?id=351"] div { color: red; background: black; border: 2px #ef2121 solid; font-family: Comic sans MS;}
+
+/* slamalamadin */
+a[href="/?id=375"] div { background: #06f691; font-family: "Nunito"; text-shadow: 4px 2px 4px white; color: black;}
+
+/* undanny */
+#top a[href="?id=377"] .fwiendFace img { filter: sepia(1) saturate(1) drop-shadow(2px 4px 6px black) contrast(85.5);}
+#top a[href="?id=377"] .fwiendFace { background: url(https://i.imgur.com/G8jYfhX.png); margin: 2px; padding: 4px; height: 189px; color: white; filter: grayscale(1);}
+
+
+/* beast */
+a[href="/?id=382"] div { background: #facc3d; color: black !important; border: 2px black solid;}
+
+/* stitch */
+a[href="/?id=386"] img { width: 98%; border-top: 0px;}
+a[href="/?id=386"] div, a[href="/?id=386"] img { border: #6ac6e0 2px solid; font-family: "MS PGothic"; text-align: justify; color: white !important; background: #002152; text-indent: 3px;}
+
+/* gene takovic */
+a[href="/?id=401"] div, a[href="/?id=401"] img { background: #0a0000e0; filter: grayscale(1); box-shadow: 2px 2px 5px black; color: white; font-family: arial;}
+
+/* cybervandalz */
+a[href="/?id=402"] div { background: URL(https://media.giphy.com/media/zW0n7AIWG4ka4/giphy.gif); background-attachment: fixed; color: white; font-family: cursive;}
+
+/* Fake Upwader */
+a[href="/?id=405"] div::after { content: "Upwader"; font-size: 15px; font-weight: bold;}
+a[href="/?id=405"] img, a[href="/?id=405"] div { color: black; background: #FFD800; border: 3px solid #FFD800; width: 98%; box-shadow: 2px 2px 0px 0px #20202080; font-size: 0;}
+a[href="/?id=405"] img { filter: brightness(0);}
+
+/* Cleveland Brown */ 
+a[href="/?id=417"] div { background: white; border-top: 3px white solid; color: #fee76b;}
+
+/* white N Nerdy */
+
+a[href="/?id=419"] div { border-top: #fffeff 8px solid;}
+a[href="/?id=419"] div, a[href="/?id=419"] img { background: #c2bfc3; border-left: #fffeff 8px solid; border-right: #7f7b80 8px solid; color: white;}
+a[href="/?id=419"] div::after { content: url(https://i.imgur.com/zgakuCu.png); position: absolute;}
+a[href="/?id=419"] img { border-bottom: #7f7b80 8px solid; width: 91.5%;}
+
+/* FUCK */
+a[href="/?id=444"] div, a[href="/?id=444"] img { border: 2px white solid;}
+a[href="/?id=444"] div { background: #35993e; color: black; text-shadow: 0px 0px 4px #1aa27c, 0px 0px 12px #00ffb8; width: 100%; border-bottom: 0px transparent !important;}
+
+/* haveyoufoundawayout */
+a[href="/?id=460"] img { width: 99.5%;}
+a[href="/?id=460"] div, a[href="/?id=460"] img { background-color: #b9b9b9; border-right: 1px solid gray; border-bottom: 1px solid gray; font-family: Cooper Black; color: black; text-align: inherit; box-shadow: 1px 0 #000, 0 1px #000, 1px 1px #000, inset 1px 1px #fff;}
+
+/* weezer */
+a[href="/?id=463"] div, a[href="/?id=463"] img { background: #009ACE; font-family: weezerfont; color: black;}
+
+/* nonbinary POTUS */
+a[href="/?id=491"] img { border-top: 0px !important;}
+a[href="/?id=491"] div, a[href="/?id=491"] img { border: #ffff groove 4px; border-right: #2f2f2f groove 4px; width: 97%;}
+a[href="/?id=491"] div { background: url(https://i.imgur.com/W20Qbxl.png?1) calc(100% - 0px) 1px no-repeat, linear-gradient(to bottom,blue 21px, transparent 1px); text-align: left; text-indent: 10px; color: white; border-bottom: 0px!important;}
+
+/* Andrew Twat */
+a[href="/?id=493"] div { background: url(https://i.imgur.com/GVo3LjF.gif); height: 62px; background-size: cover; image-rendering: pixelated; color: transparent;}
+
+/* homotoast */
+a[href="/?id=520"] div { background: url(https://i.giphy.com/media/YRcXl6VfNhCorklI0R/giphy.webp); font-family: cursive; text-shadow: 0px 0px 5px #ffffff; color: #433c5f; background-size: contain;}
+
+/* Glover */
+a[href="/?id=526"] div { border: 3px groove yellow; width: 100%; border-bottom: 0px; background: red; color: yellow !important; padding-bottom: 1px; font-variant: unicase;}
+a[href="/?id=526"] img { border: 3px groove yellow; border-top: 0px;}
+
+/* bazookja smooth */
+a[href="/?id=527"] div { background-color: #406997; border-radius: 10px 10px 0px 0px; color: #FFFFFF; border: groove; border-color: #FFFFFF; border-bottom: 0px; width: 100%; font-family: monospace; text-align: center;}
+a[href="/?id=527"] img { background-color: #0f48897a; border-radius: 0px 0px 10px 10px; color: #FFFFFF; border: groove; border-color: #FFFFFF; border-top: 0px;}
+
+/* Blockly */
+a[href="/?id=529"] { overflow: hidden; height: 235px; display: block; width: auto;}
+a[href="/?id=529"] div { border: 2px solid #888;}
+a[href="/?id=529"] div {  background: linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(50,50,50,1) 100%); border-radius: 10px; width: 98%; height: 230px; position: relative; background-image: url(https://blockly806.neocities.org/img/back.png); background-position: -94px 0px; background-size: cover;}
+a[href="/?id=529"] img { width: 100%; animation: spin linear infinite 0.5s; position: relative; top: -210px;}
+a[href="/?id=529"] b { font-family: helvetica, arial, sans-serif !important; font-variant: inherit !important; background: linear-gradient(90deg, rgba(65,255,0,1) 0%, rgba(155,182,255,1) 100%); -webkit-background-clip: text; color: transparent; background-clip: text;}
+
+/* Kaekas */
+a[href="/?id=551"] div { border-bottom: 0px !important; border-radius: 50px 50px 0px 0px; text-align: center; text-shadow: 1px 2px 2px #44004488; background: #f89; color: #d36;}
+a[href="/?id=551"] div, a[href="/?id=551"] img { border-style: solid; border-width: 10px 5px; border-color: #5f9; width: 100%;}
+a[href="/?id=551"] img { border-top: 0px !important; border-radius: 0px 0px 50px 50px; text-shadow: 1px 2px 2px #44004488; background: #f89; color: #d36;}
+
+/* ChatGPT */
+a[href="/?id=566"] img { background: #74aa9c; width: 100%; color: black !important;}
+a[href="/?id=566"] div { background-image: url(https://picsum.photos/1200/800); background-repeat: no-repeat; background-size: cover; background-position: center; border: 1px solid #000; width: 99%; color: black !important;}
+
+/* Jacket */
+a[href="/?id=567"] div { color: White; text-shadow: 2px 2px #a30014; font-family: monospace; font-size: 15.5px; background-color: #87000b; width: 100%;}
+
+/* css */
+a[href="/?id=593"] b::after { font-size: 14px; content: "/css/";}
+a[href="/?id=593"] div, a[href="/?id=593"] img { font-size: 0px; font-family: arial, helvetica, sans-serif; color: #00cc00; border: 3px groove #00cc00; background: url(https://media0.giphy.com/media/fS9PCxQYG0ULu/giphy.gif); width: 97%;}
+
+/* music */
+a[href="/?id=594"] div { background: #d1d5ee; border: 1px solid #34345c; border-bottom: 0px; width: 100%; color: #34345c;}
+a[href="/?id=594"] img { background: linear-gradient(180deg, #d1d5ee, #eef2ff); border: 1px solid #34345c; border-top: 0px;}
+
+/* miimywii */
+a[href="/?id=597"] div, a[href="/?id=597"] img { background: url(https://myspace.f46n.org/u/597/avatar.png?v=1684619400) #ffe309; background-size: 15px; color: #0a50b8; text-shadow: 0px 0px 4px #ffffff;}
+
+/* 1oky4 */
+a[href$='?id=666'] div { background: url(https://imgur.com/oK9L1d9.gif) center fixed; color: red; font-family: monospace; font-variant-numeric: ordinal;}
+a[href$='?id=666'] img { filter: saturate(17.5);}
+
+/* bestJester */
+a[href="/?id=679"] div { background-color: #713c99; border-style: solid; border-color: #3f2354; border-top-left-radius: 15px; border-top-right-radius: 15px; width: 100%; border-bottom: 0; color: #3f2354;}
+a[href="/?id=679"] img { background-color: #713c99; border-style: solid; border-color: #3f2354; padding-left: 0px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; width: 100%; border-top: 0; color: #3f2354;}
+
